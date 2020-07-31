@@ -1,0 +1,30 @@
+{
+	"name": "fcc-mongo-mongoose-challenges",
+	"version": "0.0.1",
+	"description": "A boilerplate project",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodenv",
+		"server": "nodenv server.js --exec nodemon"
+	},
+	"dependencies": {
+		"node-env-run": "^3.0.2",
+		"express": "^4.16.4",
+		"body-parser": "^1.18.3",
+		"mongodb": "^3.2.3",
+		"mongoose": "^5.9.20"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://hyperdev.com/#!/project/welcome-project"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
+}
